@@ -46,7 +46,12 @@ The database is created automatically on first run. Optional services (email, im
 2. Comment on the issue with a short note on how you plan to approach it, then wait for a maintainer to **assign** it to you. This avoids two people building the same thing.
 3. If you go quiet for 7 days we may unassign you so someone else can help. Tell us if you need more time.
 
-**Drips Wave issues.** During a [Drips Wave](https://docs.drips.network/wave), issues that are part of the program carry the `Stellar Wave` label. Apply for the issue in the Drips Wave app instead of commenting here, and wait until a maintainer accepts your application and assigns you. Do not start work before you are assigned. When you open your pull request, link the issue with `Closes #123` so it can be verified and rewarded.
+**Event issues (Grainlify GrainHack, Drips Wave).** Issues entered into a funded event are assigned through that event's platform, not by commenting here:
+
+- **Grainlify GrainHack:** apply for the issue on Grainlify during the application window. A weighted draw picks the assignee, and maintainers do not choose or assign anyone on GitHub. Read the event's eligibility rules first.
+- **Drips Wave:** issues carry the `Stellar Wave` label. Apply in the Drips Wave app, and wait until a maintainer accepts your application and assigns you.
+
+Do not start work on an event issue before you are assigned. When you open your pull request, link the issue with `Closes #123` so it can be verified.
 
 Have an idea that is not listed? Open a [feature request](../../issues/new/choose) first so we can agree on scope before you invest time.
 
@@ -54,9 +59,10 @@ Have an idea that is not listed? Open a [feature request](../../issues/new/choos
 
 ```bash
 git fetch upstream
-git checkout -b fix/short-description upstream/main
+git checkout -b fix/123-short-description upstream/main
 ```
 
+- Name branches `fix/123-short-description`, `feat/123-short-description` or `docs/123-short-description`, where 123 is the issue number.
 - Keep each pull request focused on **one** issue.
 - Prefer small commits with clear messages (see below).
 - Add or update tests when you change behaviour.
