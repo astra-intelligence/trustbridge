@@ -16,7 +16,7 @@ By taking part you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Fo
 
 ## Set up your environment
 
-**Requirements:** Node.js 20 or newer, npm, Git. A Stellar wallet extension ([Freighter](https://www.freighter.app) or [Lobstr](https://lobstr.co)) helps for wallet features. Use **testnet** while developing.
+**Requirements:** Node.js 22.12 or newer, npm, Git. A Stellar wallet extension ([Freighter](https://www.freighter.app) or [Lobstr](https://lobstr.co)) helps for wallet features. Use **testnet** while developing.
 
 ```bash
 # Fork the repository on GitHub first, then:

@@ -121,7 +121,7 @@ The database is a single SQLite file created on first run. Schema changes are ap
 | Layer | Technology |
 | --- | --- |
 | Frontend | React 18, TanStack Start and Router (SPA mode), Vite, TypeScript, Tailwind CSS v4 |
-| Backend | Node.js 20+ (ES modules), Express 4, SQLite via `better-sqlite3`, JWT, bcrypt |
+| Backend | Node.js 22+ (ES modules), Express 4, SQLite via `better-sqlite3`, JWT, bcrypt |
 | Blockchain | Stellar SDK 16, Horizon, Freighter and Lobstr wallet APIs |
 | Services | Resend (email), Cloudinary (images), GitHub OAuth |
 | Quality | Node's built-in test runner, GitHub Actions CI |
@@ -139,7 +139,7 @@ Install the extension, create or import an account, then reload TrustBridge and 
 
 ## Quick start
 
-**Requirements:** Node.js 20 or newer, npm and Git. Use **testnet** while developing.
+**Requirements:** Node.js 22.12 or newer, npm and Git. Use **testnet** while developing.
 
 ```bash
 git clone https://github.com/trustbridge-platform/trustbridge.git
